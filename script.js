@@ -6,10 +6,10 @@
 const products = [
   {
     id: 1,
-    emoji: "📝",
+    image: "images/paket-menulis-lengkap.jpeg",
     name: "Paket Menulis Lengkap",
     shortDesc: "Perlengkapan menulis sehari-hari yang praktis dan hemat untuk anak SD & SMP.",
-    intro: "📝 Paket Menulis Lengkap – Perlengkapan Sekolah & Belajar Anak\n\nLengkapi kebutuhan sekolah dan belajar si kecil dengan Paket Menulis Lengkap yang praktis dan hemat.",
+    intro: "Lengkapi kebutuhan sekolah dan belajar si kecil dengan Paket Menulis Lengkap yang praktis dan hemat. Cocok untuk anak SD, SMP, maupun kebutuhan sehari-hari.",
     items: ["Buku tulis", "Pensil", "Pulpen", "Penghapus", "Penggaris", "Rautan"],
     keunggulan: [
       "Perlengkapan lengkap dalam satu paket",
@@ -22,10 +22,10 @@ const products = [
   },
   {
     id: 2,
-    emoji: "🎒",
+    image: "images/paket-back-to-school.jpeg",
     name: "Paket Back to School",
     shortDesc: "Siapkan perlengkapan sekolah anak jadi lebih praktis untuk tahun ajaran baru.",
-    intro: "🎒 Paket Kembali ke Sekolah – Cocok untuk tahun ajaran baru, hadiah sekolah, maupun kebutuhan belajar harian.",
+    intro: "Siapkan perlengkapan sekolah anak jadi lebih praktis dengan Paket Back to School yang lengkap dan hemat. Cocok untuk tahun ajaran baru dan hadiah sekolah.",
     items: ["Buku tulis 3–5 buah", "Pensil", "Pulpen", "Penghapus", "Penggaris", "Rautan", "Sampul buku"],
     keunggulan: [
       "Perlengkapan sekolah lengkap",
@@ -38,10 +38,10 @@ const products = [
   },
   {
     id: 3,
-    emoji: "🎨",
+    image: "images/paket-kreatif-anak.jpeg",
     name: "Paket Kreatif Anak",
     shortDesc: "Ajak anak belajar sambil berkreasi dengan paket yang seru dan edukatif.",
-    intro: "🎨 Paket Kreatif Anak – Cocok untuk aktivitas sekolah, tugas prakarya, dan bermain kreatif di rumah.",
+    intro: "Ajak anak belajar sambil berkreasi dengan Paket Kreatif Anak yang seru dan edukatif. Cocok untuk aktivitas sekolah, tugas prakarya, dan bermain kreatif di rumah.",
     items: ["Kertas origami", "Lem", "Gunting", "Pensil warna", "Spidol warna"],
     keunggulan: [
       "Melatih kreativitas dan motorik anak",
@@ -53,10 +53,10 @@ const products = [
   },
   {
     id: 4,
-    emoji: "📐",
+    image: "images/paket-matematika.jpeg",
     name: "Paket Matematika",
     shortDesc: "Paket perlengkapan matematika lengkap untuk SD hingga SMP.",
-    intro: "📐 Paket Matematika – Perlengkapan lengkap untuk mendukung kegiatan belajar matematika di sekolah maupun di rumah.",
+    intro: "Paket perlengkapan matematika lengkap untuk mendukung kegiatan belajar di sekolah maupun di rumah. Cocok untuk siswa SD hingga SMP.",
     items: ["Penggaris", "Busur derajat", "Jangka", "Pensil", "Penghapus"],
     keunggulan: [
       "Lengkap untuk pelajaran matematika",
@@ -68,10 +68,10 @@ const products = [
   },
   {
     id: 5,
-    emoji: "🖍️",
+    image: "images/paket-mewarnai.jpeg",
     name: "Paket Mewarnai",
     shortDesc: "Buat aktivitas menggambar dan mewarnai jadi lebih seru untuk anak-anak.",
-    intro: "🖍️ Paket Mewarnai – Warna cerah dan menarik untuk menemani waktu belajar dan bermain anak.",
+    intro: "Buat aktivitas menggambar dan mewarnai jadi lebih seru dengan Paket Mewarnai yang lengkap dan menarik untuk anak-anak.",
     items: ["Buku gambar", "Krayon atau pensil warna", "Penghapus", "Pensil"],
     keunggulan: [
       "Cocok untuk belajar dan bermain",
@@ -83,10 +83,10 @@ const products = [
   },
   {
     id: 6,
-    emoji: "💰",
+    image: "images/paket-belajar-hemat.jpeg",
     name: "Paket Belajar Hemat",
     shortDesc: "Paket alat tulis sederhana dengan harga ekonomis untuk kebutuhan harian.",
-    intro: "💰 Paket Belajar Hemat – Solusi hemat untuk perlengkapan sekolah dan belajar sehari-hari.",
+    intro: "Paket alat tulis sederhana dengan harga ekonomis untuk kebutuhan sekolah dan belajar sehari-hari. Solusi hemat untuk perlengkapan sekolah.",
     items: ["2 Pensil", "1 Penghapus", "1 Penggaris", "1 Pulpen"],
     keunggulan: [
       "Harga terjangkau",
@@ -98,10 +98,10 @@ const products = [
   },
   {
     id: 7,
-    emoji: "📚",
+    image: "images/paket-anak-rajin.jpeg",
     name: "Paket Anak Rajin",
     shortDesc: "Paket alat tulis lengkap untuk membantu anak lebih rapi dan semangat belajar.",
-    intro: "📚 Paket Anak Rajin – Membantu anak lebih rapi, aktif mencatat, dan semangat belajar setiap hari.",
+    intro: "Paket alat tulis lengkap untuk membantu anak lebih rapi, aktif mencatat, dan semangat belajar setiap hari.",
     items: ["Buku catatan", "Sticky notes", "Stabilo", "Pulpen", "Penggaris"],
     keunggulan: [
       "Cocok untuk mencatat pelajaran",
@@ -113,10 +113,10 @@ const products = [
   },
   {
     id: 8,
-    emoji: "🏆",
+    image: "images/paket-hadiah-prestasi.jpeg",
     name: "Paket Hadiah Prestasi",
     shortDesc: "Paket hadiah lucu dan menarik untuk apresiasi anak berprestasi.",
-    intro: "🏆 Paket Hadiah Prestasi – Hadiah sederhana yang bikin anak bahagia dan makin semangat belajar.",
+    intro: "Paket hadiah lucu dan menarik untuk apresiasi anak berprestasi di sekolah maupun lomba. Hadiah sederhana yang bikin anak bahagia.",
     items: ["Buku tulis lucu", "Pensil karakter", "Penghapus karakter", "Stiker"],
     keunggulan: [
       "Cocok untuk hadiah dan reward anak",
@@ -128,10 +128,10 @@ const products = [
   },
   {
     id: 9,
-    emoji: "✏️",
+    image: "images/paket-ujian-premium.jpeg",
     name: "Paket Ujian Premium",
     shortDesc: "Persiapkan ujian dengan perlengkapan lengkap dan nyaman.",
-    intro: "✏️ Paket Ujian Premium – Ujian jadi lebih siap dan tenang dengan perlengkapan yang lengkap.",
+    intro: "Persiapkan ujian dengan perlengkapan lengkap dan nyaman menggunakan Paket Ujian Premium. Ujian jadi lebih siap dan tenang.",
     items: ["Pensil 2B", "Penghapus berkualitas", "Pulpen hitam", "Penggaris", "Rautan", "Air mineral kecil", "Permen"],
     keunggulan: [
       "Lengkap untuk kebutuhan ujian",
@@ -143,10 +143,10 @@ const products = [
   },
   {
     id: 10,
-    emoji: "📖",
+    image: "images/paket-literasi.jpeg",
     name: "Paket Literasi",
     shortDesc: "Dukung kebiasaan membaca anak sejak dini dengan paket yang edukatif.",
-    intro: "📖 Paket Literasi – Tumbuhkan budaya membaca sejak sekarang dengan paket yang menyenangkan.",
+    intro: "Dukung kebiasaan membaca anak sejak dini dengan Paket Literasi yang edukatif dan menyenangkan. Yuk tumbuhkan budaya membaca sejak sekarang.",
     items: ["Buku bacaan anak", "Pembatas buku", "Buku catatan kecil", "Pensil"],
     keunggulan: [
       "Membantu meningkatkan minat baca",
@@ -165,21 +165,25 @@ function renderProducts() {
 
   grid.innerHTML = products.map(p => `
     <div class="product-card" data-animate onclick="openModal(${p.id})">
-      <span class="card-emoji">${p.emoji}</span>
-      <h3 class="card-title">${p.name}</h3>
-      <p class="card-desc">${p.shortDesc}</p>
-      <ul class="card-items">
-        ${p.items.slice(0, 4).map(item => `<li>${item}</li>`).join('')}
-        ${p.items.length > 4 ? `<li>+${p.items.length - 4} lainnya...</li>` : ''}
-      </ul>
-      <div class="card-cta">
+      <div class="card-img-wrap">
+        <img src="${p.image}" alt="${p.name}" loading="lazy" />
         <span class="card-badge">${p.badge}</span>
-        <div class="card-arrow">→</div>
+      </div>
+      <div class="card-body">
+        <h3 class="card-title">${p.name}</h3>
+        <p class="card-desc">${p.shortDesc}</p>
+        <ul class="card-items">
+          ${p.items.slice(0, 3).map(item => `<li>${item}</li>`).join('')}
+          ${p.items.length > 3 ? `<li>+${p.items.length - 3} lainnya...</li>` : ''}
+        </ul>
+        <div class="card-cta">
+          <span class="card-link">Lihat Detail</span>
+          <div class="card-arrow">→</div>
+        </div>
       </div>
     </div>
   `).join('');
 
-  // Re-observe new animated elements
   observeElements();
 }
 
@@ -190,23 +194,25 @@ function openModal(id) {
 
   const content = document.getElementById('modalContent');
   content.innerHTML = `
-    <span class="modal-emoji">${product.emoji}</span>
+    <div class="modal-img-wrap">
+      <img src="${product.image}" alt="${product.name}" />
+    </div>
     <h2 class="modal-title">${product.name}</h2>
-    <p class="modal-intro">${product.intro.replace(/\n/g, '<br>')}</p>
-    <p class="modal-subtitle">✨ Isi Paket:</p>
+    <p class="modal-intro">${product.intro}</p>
+    <p class="modal-subtitle">Isi Paket:</p>
     <ul class="modal-items">
       ${product.items.map(item => `<li>${item}</li>`).join('')}
     </ul>
-    <p class="modal-subtitle">✅ Keunggulan:</p>
+    <p class="modal-subtitle">Keunggulan:</p>
     <ul class="modal-keunggulan">
       ${product.keunggulan.map(k => `<li>${k}</li>`).join('')}
     </ul>
     <div class="modal-actions">
       <a href="https://www.instagram.com/stationery__id?igsh=MWY0OGQzbHR3cjM3Zg==" target="_blank" class="btn-primary">
-        🛍️ Order via Instagram
+        Order via Instagram
       </a>
       <a href="https://wa.me/6281234567890?text=Halo%20Stationery.id%2C%20saya%20tertarik%20dengan%20${encodeURIComponent(product.name)}" target="_blank" class="btn-outline">
-        💬 WhatsApp
+        Chat WhatsApp
       </a>
     </div>
   `;
@@ -220,7 +226,6 @@ function closeModal() {
   document.body.style.overflow = '';
 }
 
-// Close modal handlers
 document.getElementById('modalClose').addEventListener('click', closeModal);
 document.getElementById('modalOverlay').addEventListener('click', function(e) {
   if (e.target === this) closeModal();
@@ -236,25 +241,18 @@ function observeElements() {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         const delay = parseInt(entry.target.dataset.delay) || 0;
-        setTimeout(() => {
-          entry.target.classList.add('visible');
-        }, delay);
+        setTimeout(() => entry.target.classList.add('visible'), delay);
         observer.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.15 });
-
+  }, { threshold: 0.12 });
   elements.forEach(el => observer.observe(el));
 }
 
 // === NAVBAR SCROLL ===
 function handleNavbarScroll() {
   const navbar = document.getElementById('navbar');
-  if (window.scrollY > 60) {
-    navbar.classList.add('scrolled');
-  } else {
-    navbar.classList.remove('scrolled');
-  }
+  navbar.classList.toggle('scrolled', window.scrollY > 60);
 }
 
 // === HAMBURGER MENU ===
@@ -263,49 +261,23 @@ function initHamburger() {
   const navLinks = document.getElementById('navLinks');
 
   hamburger.addEventListener('click', () => {
-    navLinks.classList.toggle('open');
+    const isOpen = navLinks.classList.toggle('open');
     const spans = hamburger.querySelectorAll('span');
-    spans.forEach(s => s.style.transform = '');
-    if (navLinks.classList.contains('open')) {
+    if (isOpen) {
       spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
       spans[1].style.opacity = '0';
       spans[2].style.transform = 'rotate(-45deg) translate(5px, -5px)';
     } else {
-      spans[1].style.opacity = '1';
+      spans.forEach(s => { s.style.transform = ''; s.style.opacity = '1'; });
     }
   });
 
-  // Close on nav link click
   navLinks.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => {
       navLinks.classList.remove('open');
-      hamburger.querySelectorAll('span').forEach(s => {
-        s.style.transform = '';
-        s.style.opacity = '1';
-      });
+      hamburger.querySelectorAll('span').forEach(s => { s.style.transform = ''; s.style.opacity = '1'; });
     });
   });
-}
-
-// === SMOOTH ACTIVE LINK ===
-function initActiveNav() {
-  const sections = document.querySelectorAll('section[id]');
-  const navLinks = document.querySelectorAll('.nav-links a[href^="#"]');
-
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        navLinks.forEach(link => {
-          link.style.color = '';
-          if (link.getAttribute('href') === '#' + entry.target.id) {
-            link.style.color = 'var(--primary)';
-          }
-        });
-      }
-    });
-  }, { threshold: 0.5 });
-
-  sections.forEach(s => observer.observe(s));
 }
 
 // === INIT ===
@@ -313,6 +285,5 @@ document.addEventListener('DOMContentLoaded', () => {
   renderProducts();
   observeElements();
   initHamburger();
-  initActiveNav();
   window.addEventListener('scroll', handleNavbarScroll, { passive: true });
 });
